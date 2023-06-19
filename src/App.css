@@ -1,0 +1,1109 @@
+.text-white {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+  display: flex !important;
+}
+
+.flex-column {
+  flex-direction: row !important;
+  padding-left: 200px;
+  position: absolute;
+  top: 40px;
+  margin-left: -40px;
+  font-size: 23px;
+  font-family: fantasy;
+  color: rgb(226, 19, 19);
+}
+
+.App {
+  background-image: url("https://andit.co/projects/html/and-tour/demo/assets/img/banner/bg.png");
+  padding: 370px 0 280px 0;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.col-lg-6 col-md-6 {
+  flex: 0 0 auto;
+  width: 50%;
+
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) * -.5);
+  margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+
+ul {
+  display: flex;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.col-lg-6 col-md-6 {
+  list-style: none;
+}
+
+.fab {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  font-family: "Font Awesome 5 Brands";
+}
+
+.topbar-list li::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  right: -15px;
+  width: 1px;
+  height: 15px;
+  background-color: #dbdbdb78;
+}
+
+.container {
+  max-width: 1140px;
+  position: absolute;
+  top: -55px;
+  margin-left: 125px;
+}
+
+.nav-link:hover {
+  color: var(--bs-nav-link-hover-color);
+}
+
+.Na {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+}
+
+.Na h1 {
+  font-size: 82px;
+  font-weight: 400;
+  line-height: 90px;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 30px;
+}
+
+.Na h3 {
+  font-size: 24px;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+.Naa {
+  width: 301px;
+  max-width: 350px;
+  height: 350px;
+  max-height: 337px;
+}
+
+.Lien {
+  position: absolute;
+  top: 1007px;
+}
+
+.Containerr {
+  margin-top: 73px;
+  width: 1232px;
+}
+
+.imagination_boxed img {
+  position: relative;
+  width: 100%;
+  transition: var(--transition);
+}
+
+.heading_left_area {
+  margin-left: 55px !important;
+}
+
+.Hotel {
+  flex-wrap: wrap;
+  display: flex;
+  width: 1000px;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+.Card:hover {
+  border: 2px grey solid;
+  box-shadow: 5px 5px 5px 5px gray;
+}
+
+.ALL h2 {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 40px;
+  font-family: 'Roboto', sans-serif;
+  /* margin: 0; */
+  margin-top: 60px;
+  text-align: center;
+}
+
+.ALL {
+  margin-left: 43px;
+  margin-top: 60px;
+  padding-top: 7px;
+}
+
+
+#footer_area {
+  margin-top: 200px;
+  width: 100%;
+}
+
+/* .footer_link_area {
+    padding-top: 20px;
+} */
+.footer_heading_area h5 {
+  border-bottom: 1px solid var(--main-color);
+  display: inline-flex !important;
+  padding-bottom: 5px !important;
+  font-weight: 500 !important;
+  font-size: 18px !important;
+}
+
+.footer_link_area ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.containera {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) * -.5);
+  margin-left: calc(var(--bs-gutter-x) * -.5);
+  background-color: azure;
+  padding-left: 74px;
+  padding-top: 30px;
+}
+
+.container1 {
+  width: 1283px;
+
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-between;
+  width: 1283px;
+  height: 414px;
+}
+
+.offer_area_content {
+  position: absolute;
+  top: 1000px;
+}
+
+.footer_heading_area {
+  margin-left: 37px;
+}
+
+.cta_left {
+  display: flex;
+}
+
+.COntainer {
+  width: 1129px;
+  margin-left: 51px;
+  margin-top: 50px;
+}
+
+.align-items-center {
+  align-items: center !important;
+  padding-top: 33px;
+  /* margin-top: 20px; */
+  padding-bottom: 60px;
+  display: flex;
+}
+
+
+/* a {
+  color: var(--bs-link-color);
+  text-decoration: underline;
+} */
+
+.contact_form {
+  background: #FFFFFF;
+  box-shadow: -4px -4px 16px rgba(0, 0, 0, 0.08), 4px 8px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  padding: 35px 35px;
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.form-group {
+  margin: 10px;
+  margin-left: 20px;
+}
+
+.form-control {
+  height: 55px;
+  border: 2px dashed #dddddd75;
+  padding: 10px 22px;
+  font-size: 16px;
+}
+
+.bg_input {
+  background-color: #F3F6FD;
+}
+
+/* .row2 {
+    background-color: white;
+    box-shadow: 2px 2px 17px 0px #808080c9;
+    position: absolute;
+    top: 1630px;
+    margin-left: 200px;
+    width: 960px;
+    border-radius: 4px 5px 5px 5px;
+} */
+.offset-lg-1 {
+  margin-left: 8.333333%;
+  padding-top: 0px !important;
+  margin-bottom: 40px;
+}
+
+.align-items-center {
+  align-items: center !important;
+  padding-top: 33px;
+  /* margin-top: 20px; */
+  padding-bottom: 60px;
+}
+
+.nav-link1 {
+  border: 5px;
+  color: black;
+  border: 1px solid #8b3eea;
+  width: 110px;
+  border-radius: 4px 5px 5px;
+  background-color: white;
+  height: 45px;
+}
+
+#nav-tab {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.theme_nav_tab {
+  background: #FFFFFF;
+  box-shadow: -4px -4px 16px rgb(139 62 234 / 8%), 4px 14px 28px rgb(139 148 250 / 7%);
+  border-radius: 12px;
+  padding: 21px 0;
+  margin-bottom: 30px;
+}
+
+
+.SOF {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://www.yudiz.com/codepen/animation-form/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 700px;
+  font-family: "Montserrat", sans-serif;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+}
+
+
+
+.bad {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: -300px;
+  margin-top: -30px;
+}
+
+* {
+  box-sizing: border-box
+}
+
+/* Full-width input fields */
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  /* border: 1px solid #f1f1f1; */
+  margin-bottom: 25px;
+  color: #000;
+  height: 4px;
+}
+
+/* Set a style for all buttons */
+
+
+button:hover {
+  opacity: 1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,
+.signupbtn {
+  float: left;
+  width: 50%;
+  background-color: #04aa6d;
+  height: 50px;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+
+  .cancelbtn,
+  .signupbtn {
+    width: 100%;
+  }
+}
+
+.input-group {
+  position: relative !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: stretch;
+  width: 100% !important;
+  margin-top: -76px;
+  /* margin-left: 380px; */
+}
+
+button {
+  /* background-color: #04AA6D; */
+  padding: -9px -3px;
+  margin: 0px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  background-color: #ddd;
+}
+
+.btn:hover {
+  color: var(--bs-btn-hover-color);
+  /* background-color: var(--bs-btn-hover-bg); */
+  /* border-color: var(--bs-btn-hover-border-color); */
+  width: 0px;
+}
+
+form {
+  width: 502px;
+}
+
+.AL {
+  background-color: #e95252;
+  width: 100px;
+  height: 39px;
+  margin-left: 1020px;
+  position: absolute;
+  top: 5px;
+}
+
+.modal-content {
+  width: 542px !important;
+  height: 930px;
+}
+
+.btn1 {
+  width: 97px;
+  height: 40px;
+  position: absolute;
+  left: 400px;
+  top: 717px;
+}
+
+.btn2 {
+  width: 70px;
+  height: 40px;
+  position: absolute;
+  left: 316px;
+  top: 717px;
+}
+
+.box {
+  margin-top: 75px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 150px;
+  background: azure;
+  width: 1000px;
+}
+
+.col-lg-4 {
+  /* background: aqua; */
+  position: absolute;
+  top: 30px;
+  left: 756px;
+  border-radius: 14px;
+  box-shadow: 8px 2px 8px 8px gray;
+}
+
+
+.col-lg-10 {
+  flex: 0 0 auto;
+  width: 83.33333333%;
+  /* margin-left: 120px; */
+  width: 330px;
+}
+
+.dashboard_sidebar_user {
+  text-align: center;
+  padding: 30px 20px;
+  background: #F3F6FD;
+}
+
+/* .container2 {
+  width: 500px;
+  border: 2px solid gray;
+  margin-left: 0px;
+  /* margin-top: 60px; */
+/* background-color: azure; */
+
+
+
+
+
+.write_your_review_wrapper {
+  background: #FFFFFF !important;
+  box-shadow: -4px -5px 14px rgb(0 0 0 / 8%), 5px 8px 16px rgb(0 0 0 / 8%) !important;
+  border-radius: 10px !important;
+  padding: 20px 20px !important;
+  margin-top: 50px !important;
+}
+
+
+
+.tour_details_top_bottom {
+  margin-top: 25px;
+  border-top: 1px solid #eeeaea;
+  padding-top: 13px;
+  border-bottom: 1px solid #eeeaea;
+  padding-bottom: 13px;
+  display: flex;
+  justify-content: space-between;
+  width: 687px;
+  /* height: 100px; */
+  margin-left: 40px;
+  margin-top: 88px;
+}
+
+.all_review_box {
+  background: #FFFFFF;
+  box-shadow: -4px -4px 16px rgba(0, 0, 0, 0.08), 4px 8px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  padding: 20px 20px;
+  position: relative;
+  margin-top: 40px;
+}
+
+.our_detail_right_sidebar {
+  background-color: red;
+  width: 200px;
+}
+
+.AA {
+  position: absolute;
+  top: 710px;
+  left: 789px;
+}
+
+.Al {
+  width: 400px;
+  height: 350px;
+  box-shadow: 2px 0px 32px -2px gainsboro;
+  margin: 20px;
+  /* position: absolute; */
+  /* top: 215px; */
+  left: -18px;
+}
+
+.Aaa {
+  width: 400px;
+  height: 246px;
+  box-shadow: 2px 0px 32px -2px gainsboro;
+}
+
+.tour_details_boxed {
+  background: #FFFFFF !important;
+  box-shadow: -4px -5px 14px rgb(0 0 0 / 8%), 5px 8px 16px rgb(0 0 0 / 8%) !important;
+  border-radius: 10px !important;
+  padding: 20px 20px !important;
+  margin-top: 30px !important;
+  width: 1000px;
+}
+
+.flight_Search_boxed {
+  background: #8b3eea17;
+  padding: 10px 10px 10px 20px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.date_flex_area {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .flight_Search_boxed {
+display: flex !important;
+} */
+.room_book_item {
+  display: flex;
+}
+
+
+
+.room_booking_right_side {
+  margin: 10px;
+}
+
+.common_bannner_text h2 {
+  color: var(--white-color);
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 51px;
+  line-height: 40px;
+  width: 430px;
+}
+
+.AR {
+  margin-top: 20px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  width: 639px;
+}
+
+/* .Login{
+    border: 1px solid rgb(204, 204, 204) !important;
+    margin-left: 400px !important;
+    margin-top: 120px !important;
+    background: azure !important;
+} */
+
+.dashboard_menu_area {
+  background: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.08) -4px -5px 14px, rgba(0, 0, 0, 0.08) 5px 8px 16px;
+  border-radius: 0px;
+  padding: 30px;
+  margin-top: 0px;
+  width: 300px;
+
+}
+
+.dashboard_top_boxed {
+  background: #FFFFFF;
+  box-shadow: -4px -4px 14px rgba(0, 0, 0, 0.08), 8px 8px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  padding: 25px 40px;
+  display: flex;
+  align-items: center;
+}
+
+.Class {
+  display: flex;
+  margin-top: 130px;
+  width: 1240px;
+  margin-left: 70px;
+  /* height: 200px; */
+}
+
+.table {
+  width: 900px;
+  margin-left: -23px;
+}
+
+.dashboard_top_text h3 {
+  padding-bottom: 8px;
+  font-weight: 500;
+  color: var(--paragraph-color);
+  font-size: 24px;
+}
+
+.dashboard_common_table {
+  background: #f3f6fd;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.table_common_area tbody tr td {
+  padding: 16px 0;
+}
+
+.dashboard_menu_area {
+  font-size: 20px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+
+.RowE {
+  width: 1190px;
+  margin-left: 30px;
+  background: azure;
+  border-radius: 12px;
+  display: flex;
+}
+
+.Aaaa {
+  width: 534px;
+  margin: 20px;
+}
+
+.sOF {
+  width: 110px;
+  max-width: 110px;
+  height: 110px;
+  display: flex;
+  max-height: 110px;
+  border-radius: 12px 12px 12px 12px;
+  margin: 10px;
+  /* width: 105px; */
+}
+
+.col-sm-3 {
+  flex: 0 0 auto;
+  width: 55%;
+}
+
+.Bot {
+  position: absolute;
+  left: 1185px;
+  top: 705px;
+}
+
+.modal-footer {
+  display: flex;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  padding: calc(var(--bs-modal-padding) - var(--bs-modal-footer-gap) * .5);
+  background-color: var(--bs-modal-footer-bg);
+  border-top: var(--bs-modal-footer-border-width) solid var(--bs-modal-footer-border-color);
+  border-bottom-right-radius: var(--bs-modal-inner-border-radius);
+  border-bottom-left-radius: var(--bs-modal-inner-border-radius);
+  position: absolute !important;
+  top: 130px !important;
+}
+
+.Btn {
+  width: 30px;
+  background: white;
+}
+
+.btnlog {
+  color: black;
+}
+
+
+.Row-1 {
+
+  display: flex;
+  width: 1230px;
+  /* height: 500px; */
+  flex-wrap: wrap;
+
+}
+
+.col-lg-1 {
+  flex: 0 0 auto;
+  width: 261px;
+  display: flex;
+  flex-wrap: wrap;
+  /* height: 363px; */
+  margin-left: 140px;
+  height: 142px;
+}
+
+.tab_destinations_boxed {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d2d2d2;
+  border-radius: 9px;
+  overflow: hidden;
+  transition: var(--transition);
+  margin-bottom: 40px;
+  width: 302px;
+}
+
+.tab_destinations_conntent {
+  height: 100px;
+  width: 215px;
+  padding-left: 12px;
+  padding-top: 3px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container22 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+.card-1 {
+  background-color: #ddd;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.left {
+  width: 25vw;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.left img {
+  width: inherit;
+  object-fit: cover;
+  transform: scale(2.3);
+}
+
+.right .contact {
+  display: flex;
+  gap: 1rem;
+  margin-right: 1rem;
+}
+
+.form,
+.address {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0 0;
+}
+
+.form input,
+textarea {
+  width: 100%;
+  outline: none;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #000;
+  padding: 10px 0;
+  margin: 5px 0;
+}
+
+.usersubmit input {
+  background-color: #f25;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  width: min-content;
+  padding: 15px;
+  margin-bottom: 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.usersubmit input:hover {
+  background-color: #f45;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+h4 {
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 700px) {
+  .card {
+    flex-direction: column;
+  }
+
+  .left {
+    width: 60vw;
+    height: 40vh;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .container22 {
+    overflow: hidden;
+  }
+
+  .left {
+    height: 20vh;
+  }
+
+  .contact {
+    flex-direction: column;
+  }
+}
+
+/* .GI{
+
+  width: 100%;
+  height: 100%;
+  background-image: url("https://www.coloriageetdessins.com/images/nature/fleur/fleurs-a-telecharger-17914-660x400.jpg");
+} */
+#profile_form_area {
+  margin-left: 0px;
+}
+
+body {
+  background-color: #f9f9fa
+}
+
+.padding {
+  padding: 3rem !important
+}
+
+.user-card-full {
+  overflow: hidden;
+}
+
+.card {
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+  box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+  border: none;
+  margin-bottom: 30px;
+}
+
+.m-r-0 {
+  margin-right: 0px;
+}
+
+.m-l-0 {
+  margin-left: 0px;
+}
+
+.user-card-full .user-profile {
+  border-radius: 5px 0 0 5px;
+}
+
+.bg-c-lite-green {
+  background: -webkit-gradient(linear, left top, right top, from(#f29263), to(#ee5a6f));
+  background: linear-gradient(to right, #ee5a6f, #f29263);
+}
+
+.user-profile {
+  padding: 20px 0;
+}
+
+.card-block {
+  padding: 1.25rem;
+  width: 420px;
+}
+
+.m-b-25 {
+  margin-bottom: 25px;
+}
+
+.img-radius {
+  border-radius: 5px;
+}
+
+
+
+h6 {
+  font-size: 14px;
+}
+
+.card .card-block p {
+  line-height: 25px;
+}
+
+@media only screen and (min-width: 1400px) {
+  p {
+    font-size: 14px;
+  }
+}
+
+.card-block {
+  padding: 1.25rem;
+}
+
+.b-b-default {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.m-b-20 {
+  margin-bottom: 20px;
+}
+
+.p-b-5 {
+  padding-bottom: 5px !important;
+}
+
+.card .card-block p {
+  line-height: 25px;
+}
+
+.m-b-10 {
+  margin-bottom: 10px;
+}
+
+.text-muted {
+  color: #919aa3 !important;
+}
+
+.b-b-default {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.f-w-600 {
+  font-weight: 600;
+}
+
+.m-b-20 {
+  margin-bottom: 20px;
+}
+
+.m-t-40 {
+  margin-top: 20px;
+}
+
+.p-b-5 {
+  padding-bottom: 5px !important;
+}
+
+.m-b-10 {
+  margin-bottom: 10px;
+}
+
+.m-t-40 {
+  margin-top: 20px;
+}
+
+.user-card-full .social-link li {
+  display: inline-block;
+}
+
+.user-card-full .social-link li a {
+  font-size: 20px;
+  margin: 0 10px 0 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+h8 {
+  font-size: 1.25rem;
+  position: absolute;
+  top: 140px;
+  left: 40px;
+}
+
+done {
+  color: blue;
+}
+
+undone {
+  color: pink;
+}
+
+.Appa1 {
+  background-image: url("https://popmenucloud.com/rfyvpewt/3dbde16b-e129-4c41-84f6-b61c3afe9775.jpeg");
+  width: 1303px;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: 1304px 650px;
+}
+
+.Appa2 {
+  background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/38/af/1b/hotel-royal-azur-thalassa.jpg?w=1200&h=-1&s=1");
+  width: 1303px;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: 1304px 650px;
+
+}
+
+.Appa3 {
+  background-image: url("https://images.pexels.com/photos/1638341/pexels-photo-1638341.jpeg?auto=compress&cs=tinysrgb&w=600");
+  width: 1303px;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: 1304px 650px;
+}
+
+.Appa4 {
+  background-image: url("https://images.pexels.com/photos/16120170/pexels-photo-16120170/free-photo-of-hotel-plantes-chaises-illumine.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  width: 1303px;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: 1304px 650px;
+
+}
+
+.img-radius {
+  width: 67px;
+  height: 70px;
+  position: absolute;
+  top: 70px;
+  left: 37px;
+}

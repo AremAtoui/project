@@ -1,0 +1,57 @@
+/* .Appa {
+    background-image: url("https://andit.co/projects/html/and-tour/demo/assets/img/banner/common-banner.png");
+    padding: 370px 0 280px 0;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+/* https://www.youtube.com/watch?v=NIqti2oEm20 */
+.section_padding_bottom {
+    padding: 0 0 100px 0 !important;
+}
+
+.Big {
+    width: 295px;
+    margin-top: 70px;
+}
+
+.btn btn_theme btn_md {
+    background-color: blueviolet !important;
+}
+
+.about_offer_text {
+    position: absolute;
+    left: 829px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    top: 1377px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    /* margin-right: auto; */
+    /* margin-left: 108px; */
+}
+
+.common_bannner_text h2 {
+    color: var(--white-color);
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-size: 51px;
+    line-height: 40px;
+    width: 430px;
+    color: #54d2eb;
+}
+
+.common_bannner_text {
+    position: absolute;
+    left: 300px;
+    width: 310px;
+
+}
